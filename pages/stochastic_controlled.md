@@ -10,8 +10,8 @@ Building upon Neural ODEs, researchers expanded the continuous-time framework to
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Neural ODEs] --> B[Neural CDEs]
-    A --> C[Neural SDEs]
-    B --> D[Irregular Data Streams]
-    C --> E[Stochastic Uncertainty]
+    A["Neural ODEs"] --> B["Neural CDEs"]
+    A --> C["Neural SDEs"]
+    B --> D["Irregular Data Streams"]
+    C --> E["Stochastic Uncertainty"]
 ```
