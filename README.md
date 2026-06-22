@@ -21,12 +21,12 @@
 The progression of continuous-time deep learning maps a shift from standard discrete residual hopping to complex, boundary-constrained generative models.
 
 
-`mermaid
+```mermaid
 flowchart LR
     A["Residual Networks (2015)<br/>(Discrete Layer Steps)"] ---> B["Neural ODEs (2018)<br/>(Continuous State Vector)"] 
     B ---> C["Continuous Normalizing Flows<br/>(Exact Density Estimation)"] 
     C ---> D["Neural CDEs / SDEs<br/>(Irregular / Noisy Streams)"]                       
-`
+```
 
 | Evolution Stage | Concept | Year | Paper |
 | :--- | :--- | :--- | :--- |
