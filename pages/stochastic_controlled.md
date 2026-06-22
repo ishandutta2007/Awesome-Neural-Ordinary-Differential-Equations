@@ -8,10 +8,10 @@ Building upon Neural ODEs, researchers expanded the continuous-time framework to
 - **Neural CDEs**: Use an integral with respect to a continuous path constructed from data.
 
 ## Diagram
-`mermaid
+```mermaid
 flowchart TD
     A[Neural ODEs] --> B[Neural CDEs]
     A --> C[Neural SDEs]
     B --> D[Irregular Data Streams]
     C --> E[Stochastic Uncertainty]
-`
+```

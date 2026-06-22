@@ -4,7 +4,7 @@
 Medical data is often irregularly sampled. Neural CDEs excel at processing vital signs and lab results without imputation.
 
 ## Diagram
-`mermaid
+```mermaid
 gantt
     title Irregular Medical Data
     dateFormat X
@@ -13,4 +13,4 @@ gantt
     Heart Rate : 0, 1
     Blood Pressure : 3, 4
     Temp : 8, 9
-`
+```

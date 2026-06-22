@@ -9,7 +9,7 @@ h_{t+1} = h_t + f(h_t, \theta_t)
 This discrete update formula mathematically resembles the Euler method for solving ODEs.
 
 ## Diagram
-`mermaid
+```mermaid
 flowchart TD
     A[Input $] --> B[Weight Layer]
     B --> C[ReLU]
@@ -18,4 +18,4 @@ flowchart TD
     D --> E
     E --> F[ReLU]
     F --> G[Output]
-`
+```

@@ -8,7 +8,7 @@ Using the Instantaneous Change of Variables formula, the log-likelihood can be c
 \frac{\partial \log p(z(t))}{\partial t} = - \text{Tr} \left( \frac{\partial f}{\partial z} \right)
 
 ## Diagram
-`mermaid
+```mermaid
 flowchart LR
     A[Simple Distribution] -->|ODE Flow| B[Complex Data Distribution]
-`
+```

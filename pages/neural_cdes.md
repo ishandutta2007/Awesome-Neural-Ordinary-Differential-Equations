@@ -8,9 +8,9 @@ A continuous path (t)$ is interpolated from discrete observations, and the hidde
 dh(t) = f(h(t), \theta) dX(t)
 
 ## Diagram
-`mermaid
+```mermaid
 flowchart TD
     A[Irregular Time Series] --> B[Continuous Path (t)$]
     B --> C[Neural CDE System]
     C --> D[Hidden State Evolution]
-`
+```

@@ -7,9 +7,9 @@ These networks embed physics priors directly into the architecture by modeling t
 This guarantees that energy conservation and other physical laws are respected.
 
 ## Diagram
-`mermaid
+```mermaid
 flowchart LR
     A[Position/Momentum] --> B[HNN]
     B --> C[Energy Gradient]
     C --> D[Conservative Dynamics]
-`
+```
