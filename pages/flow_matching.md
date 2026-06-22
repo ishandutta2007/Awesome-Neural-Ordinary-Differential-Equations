@@ -6,5 +6,5 @@ A framework for training continuous normalizing flows without simulation, allowi
 ## Diagram
 ```mermaid
 flowchart LR
-    A[Noise] -->|Straight Line Path| B[Image]
+    A["Noise"] -->|Straight Line Path| B["Image"]
 ```

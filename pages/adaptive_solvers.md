@@ -9,7 +9,7 @@ They allow for faster computation in smooth regions and precise computation in c
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Evaluate Step] --> B{Error < Tolerance?}
-    B -- Yes --> C[Accept Step & Increase Size]
-    B -- No --> D[Reject Step & Decrease Size]
+    A["Evaluate Step"] --> B{Error < Tolerance?}
+    B -- Yes --> C["Accept Step & Increase Size"]
+    B -- No --> D["Reject Step & Decrease Size"]
 ```

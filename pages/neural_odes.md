@@ -10,7 +10,7 @@ This allows for continuous-depth networks. The Adjoint Sensitivity Method calcul
 ## Diagram
 ```mermaid
 flowchart LR
-    A[Input (0)$] --> B{ODE Solver}
-    B -- continuous evaluation --> C[Output (T)$]
+    A["Input (0)$"] --> B{ODE Solver}
+    B -- continuous evaluation --> C["Output (T)$"]
     B -.-> D[f(h, t)]
 ```

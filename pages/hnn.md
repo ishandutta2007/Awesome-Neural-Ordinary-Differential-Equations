@@ -9,7 +9,7 @@ This guarantees that energy conservation and other physical laws are respected.
 ## Diagram
 ```mermaid
 flowchart LR
-    A[Position/Momentum] --> B[HNN]
-    B --> C[Energy Gradient]
-    C --> D[Conservative Dynamics]
+    A["Position/Momentum"] --> B["HNN"]
+    B --> C["Energy Gradient"]
+    C --> D["Conservative Dynamics"]
 ```

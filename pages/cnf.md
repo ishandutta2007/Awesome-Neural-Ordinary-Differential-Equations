@@ -10,5 +10,5 @@ Using the Instantaneous Change of Variables formula, the log-likelihood can be c
 ## Diagram
 ```mermaid
 flowchart LR
-    A[Simple Distribution] -->|ODE Flow| B[Complex Data Distribution]
+    A["Simple Distribution"] -->|ODE Flow| B["Complex Data Distribution"]
 ```

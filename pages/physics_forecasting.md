@@ -6,7 +6,7 @@ Models real-world systems like weather or orbits by embedding differential physi
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Initial State] --> B[Neural Network]
-    B --> C[Physical Constraints]
-    C --> D[Future State Prediction]
+    A["Initial State"] --> B["Neural Network"]
+    B --> C["Physical Constraints"]
+    C --> D["Future State Prediction"]
 ```

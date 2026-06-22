@@ -9,9 +9,9 @@ dh(t) = f(h(t))dt + g(h(t))dW_t
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Current State] --> B{Drift Network $}
+    A["Current State"] --> B{Drift Network $}
     A --> C{Diffusion Network $}
     C --> D((Noise $))
-    B --> E[Update State]
+    B --> E["Update State"]
     D --> E
 ```

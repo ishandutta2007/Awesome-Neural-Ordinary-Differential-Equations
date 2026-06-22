@@ -11,11 +11,11 @@ This discrete update formula mathematically resembles the Euler method for solvi
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Input $] --> B[Weight Layer]
-    B --> C[ReLU]
-    C --> D[Weight Layer]
+    A["Input $"] --> B["Weight Layer"]
+    B --> C["ReLU"]
+    C --> D["Weight Layer"]
     A --> E((+))
     D --> E
-    E --> F[ReLU]
-    F --> G[Output]
+    E --> F["ReLU"]
+    F --> G["Output"]
 ```

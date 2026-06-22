@@ -10,7 +10,7 @@ dh(t) = f(h(t), \theta) dX(t)
 ## Diagram
 ```mermaid
 flowchart TD
-    A[Irregular Time Series] --> B[Continuous Path (t)$]
-    B --> C[Neural CDE System]
-    C --> D[Hidden State Evolution]
+    A["Irregular Time Series"] --> B["Continuous Path (t)$"]
+    B --> C["Neural CDE System"]
+    C --> D["Hidden State Evolution"]
 ```
