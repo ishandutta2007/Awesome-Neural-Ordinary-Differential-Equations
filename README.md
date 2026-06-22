@@ -9,9 +9,12 @@ Neural Ordinary Differential Equations (Neural ODEs) redefine deep learning arch
 
 The progression of continuous-time deep learning maps a shift from standard discrete residual hopping to complex, boundary-constrained generative models.
 
-```
-[Residual Networks (2015)] ---> [Neural ODEs (2018)] ---> [Continuous Normalizing Flows] ---> [Neural CDEs / SDEs]
-(Discrete Layer Steps)          (Continuous State Vector)    (Exact Density Estimation)         (Irregular / Noisy Streams)
+
+```mermaid
+flowchart LR
+    A["Residual Networks (2015)<br/>(Discrete Layer Steps)"] ---> B["Neural ODEs (2018)<br/>(Continuous State Vector)"] 
+    B ---> C["Continuous Normalizing Flows<br/>(Exact Density Estimation)"] 
+    C ---> D["Neural CDEs / SDEs<br/>(Irregular / Noisy Streams)"]                       
 ```
 
 *   **The Residual Network Precursor (ResNets, 2015)**
