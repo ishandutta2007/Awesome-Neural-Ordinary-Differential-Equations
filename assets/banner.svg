@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300">
+    <defs>
+        <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#1A2980" />
+            <stop offset="100%" stop-color="#26D0CE" />
+        </linearGradient>
+    </defs>
+    <rect width="1000" height="300" fill="url(#bg)" rx="15" ry="15" />
+    <text x="500" y="140" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle">Awesome Neural ODEs</text>
+    <text x="500" y="200" font-family="Arial, sans-serif" font-size="24" fill="#e0e0e0" text-anchor="middle">Evolution, Variants &amp; Applications in Continuous-Time Deep Learning</text>
+</svg>
